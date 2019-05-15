@@ -13,7 +13,7 @@ This PowerShell script deploys -
 - Azure API Management in Internal VNET mode
 - Azure Application Gateway
 
-The script also configures path-based routing rules within the App Gateway to allow public access to any API's hosted with a base https://api.yourdomain.org/external/ URL.
+The script also configures path-based routing rules within the App Gateway to allow public access to any API's hosted with a base URL i.e. https://api.yourdomain.org/external/.
 
 Full walkthrough and further background is [here](https://medium.com/azure-architects/azure-api-management-and-application-gateway-integration-a31fde80f3db) on the Azure Architects blog.
 
